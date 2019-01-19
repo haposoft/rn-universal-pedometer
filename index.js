@@ -9,6 +9,8 @@ let subscription;
 let stepsSubscription;
 
 export default {
+    EventEmitter,
+    
     isStepCountingAvailable: callback => {
         BMDPedometer.isStepCountingAvailable(callback);
     },
